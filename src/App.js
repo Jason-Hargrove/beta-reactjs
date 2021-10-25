@@ -1,18 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
-function Greeting({ name }) {
-  return <h1>Hello, {name}!</h1>;
+function Profile() {
+  return (
+    <img
+      src="https://i.imgur.com/MK3eW3As.jpg"
+      alt="Katherine Johnson"
+      className="avatar"
+    />
+  )
 }
 
 function App() {
   return (
-    <div>
-      <Greeting name="Jason" />
-      <Greeting name="Divyesh" />
-      <Greeting name="Sarah" />
-      <Greeting name="Taylor" />
-    </div>
+    <section>
+      <h1>Amazing scientists</h1>
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
   );
 }
 
