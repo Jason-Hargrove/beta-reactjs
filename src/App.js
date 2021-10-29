@@ -1,24 +1,30 @@
 import './App.css';
 
-function Profile() {
+function Profile({ name, imageUrl }) {
   return (
     <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
       className="avatar"
+      src={imageUrl}
+      alt={name}
     />
-  )
-}
-
-function App() {
-  return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <section>
+      <h1>Amazing scientists</h1>
+      <Profile
+        name="Lin Lanying"
+        imageUrl="https://i.imgur.com/1bX5QH6.jpg"
+       />
+      <Profile
+        name="Gregorio Y. Zara"
+        imageUrl="https://i.imgur.com/7vQD0fPs.jpg" />
+      <Profile
+        name="Hedy Lamarr"
+        imageUrl="https://i.imgur.com/yXOvdOSs.jpg"
+      />
+    </section>
+  );
+}
