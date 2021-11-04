@@ -1,5 +1,5 @@
 export default function Profile({ name, imageId }) {
-  cosnt imageUrl = (
+  const imageUrl = (
     "https://i.imgur.com/" +
     imageId +
     "s.jpg"
@@ -9,5 +9,6 @@ export default function Profile({ name, imageId }) {
       className="avatar"
       src={imageUrl}
       alt={name}
+    />
   );
 }

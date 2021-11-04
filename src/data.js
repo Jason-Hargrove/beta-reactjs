@@ -23,6 +23,6 @@ export const people = [
   {
     id: 4,
     name: "Subrahmanyan",
-    imageId: " lrWQx8l"
+    imageId: "lrWQx8l"
   }
 ];
