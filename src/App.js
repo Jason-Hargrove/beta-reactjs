@@ -2,6 +2,7 @@ import './App.css';
 import { people } from "./data.js";
 import Profile from "./Profile.js";
 import Gallery from "./Gallery.js";
+import Form from "./Form.js";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       }
       <br /> {/* <--- You stopped here. */}
       <Gallery />
+      <Form />
     </section>
   );
 }
