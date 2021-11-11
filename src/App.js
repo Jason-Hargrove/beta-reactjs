@@ -5,6 +5,7 @@ import Gallery from "./Gallery.js";
 import Form from "./Form.js";
 import List from "./FormArray.js";
 import LiveForm from "./LiveForm.js";
+import Accordion from "./Accordion.js";
 
 export default function App() {
   return (
@@ -23,7 +24,8 @@ export default function App() {
       <Gallery />{" "}
       <Form />
       <List />
-      <LiveForm />  {/* <--- You stopped here. Part 2, ...hold arrays. */}
+      <LiveForm />
+      <Accordion />  {/* <--- You stopped here. Part 2, ...hold arrays. */}
     </section>
   );
 }
