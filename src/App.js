@@ -25,7 +25,7 @@ export default function App() {
       <Form />
       <List />
       <LiveForm />
-      <Accordion />  {/* <--- You stopped here. Part 2, ...hold arrays. */}
+      <Accordion />
     </section>
   );
 }
